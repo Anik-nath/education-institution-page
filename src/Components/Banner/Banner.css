@@ -1,0 +1,22 @@
+.banner{
+    position: relative;
+}
+.banner img{
+    height: 100vh;
+    width: 100%;
+}
+.img-overlay{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.39);
+    backdrop-filter: blur(1px);
+    position: absolute;
+}
+.banner-content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100vh;
+   justify-content: center;
+   color: #fff;
+}
